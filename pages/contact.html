@@ -5,5 +5,31 @@
 </head>
 <body>
     <h1>Contact Page</h1>
+
+    <form>
+        <fieldset>
+            <legend>Contact details</legend>
+
+            <label for="firstName">Firstname</label>
+            <input id="firstName" type="text">
+            <br>
+            <label for="lastName">Lastname</label>
+            <input id="lastName" type="text">
+            <br>
+            <label for="email">Email</label>
+            <input id="email" type="text">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Query reason</legend>
+
+            <input type="radio" name="reason" value="business" checked="checked">Business
+            <input type="radio" name="reason" value="personal">Personal
+            <input type="radio" name="reason" value="other">Other
+            <br>
+            <textarea name="reason" placeholder="Other reason"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
